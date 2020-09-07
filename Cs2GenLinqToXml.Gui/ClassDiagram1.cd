@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Cs2GenLinqToXml.Gui.Cs2XmlTreeView">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AgAAgAAoBGgBAAAAQACE0QAiIACDEACESABUwAACbQA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Cs2GenLinqToXml.Gui.Cs2XmlTreeView.TreeViewAfterSelect" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cs2XmlTreeView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XmlDocumentTreeNode" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XmlDeclarationTreeNode" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XmlProcessingInstructionTreeNode" Collapsed="true">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XmlCommentTreeNode" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XmlElementTreeNode" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XmlAttributeTreeNode" Collapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XmlTextTreeNode" Collapsed="true">
+    <Position X="3.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.XPathUtilities">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlTreeView.cs</FileName>
+      <HashCode>AABAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.Cs2TabControl">
+    <Position X="6" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Cs2TabControl.cs</FileName>
+      <HashCode>gAAgAAAAACAgAEABCACAAAJCMABAAAAAICQAAAJAAYA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Cs2GenLinqToXml.Gui.Cs2TabControl.TabPageRemovedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cs2TabControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.Cs2TabControl.TabPageRemovingHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cs2TabControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.Cs2TabControl.TabPageSelectedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cs2TabControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.Cs2XmlEditor">
+    <Position X="8.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Cs2XmlEditor.cs</FileName>
+      <HashCode>AACBAAAAACAAAgQEAELQGAECEiAAAACAQAAgBCABAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Cs2GenLinqToXml.Gui.Cs2XmlEditor.ColumnLineChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cs2XmlEditor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.Cs2XmlEditor.ParsedXmlHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cs2XmlEditor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.Cs2LinqToXmlEditor">
+    <Position X="11" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Cs2LinqToXmlEditor.cs</FileName>
+      <HashCode>AAIAEAEAACAAQAAgAACCCAAKAAAAAIACRAAAAQBAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.MainForm">
+    <Position X="13.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>MainForm.cs</FileName>
+      <HashCode>GpHW2//IxympQGVrxMahUBL7G/T7s9y018//5rmnuxk=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Cs2GenLinqToXml.Gui.MainForm.LoadFromFileHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.MainForm.LoadFromPasteXmlHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.MainForm.PostProgressHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.MainForm.ExtractDataHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.MainForm.PostExtractDataHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Cs2GenLinqToXml.Gui.MainForm.PostLoadDataEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="Cs2GenLinqToXml.Gui.Cs2DatagridView">
+    <Position X="11" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Cs2DatagridView.cs</FileName>
+      <HashCode>AAAAAIAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

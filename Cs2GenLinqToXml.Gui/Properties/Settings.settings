@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Cs2GenLinqToXml.Gui.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ErrorColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">ActiveCaption</Value>
+    </Setting>
+    <Setting Name="IncludeLinqCompletePathNamespace" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IncludeXComment" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NamespaceForCSharpFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cs2GenLinqToXml</Value>
+    </Setting>
+    <Setting Name="ParseXml" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

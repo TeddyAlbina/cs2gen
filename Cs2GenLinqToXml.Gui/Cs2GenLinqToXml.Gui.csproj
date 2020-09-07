@@ -1,0 +1,193 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B01DD1F5-579A-4FAA-8635-1A464568A84A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cs2GenLinqToXml.Gui</RootNamespace>
+    <AssemblyName>Cs2GenLinqToXml.Gui</AssemblyName>
+    <ApplicationIcon>Resources\net2csgenxlinqv1.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cs2DatagridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cs2DatagridView.Designer.cs">
+      <DependentUpon>Cs2DatagridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cs2LinqToXmlEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cs2LinqToXmlEditor.Designer.cs">
+      <DependentUpon>Cs2LinqToXmlEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cs2TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cs2TabControl.designer.cs">
+      <DependentUpon>Cs2TabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cs2XmlEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cs2XmlEditor.designer.cs">
+      <DependentUpon>Cs2XmlEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cs2XmlTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cs2XmlTreeView.designer.cs">
+      <DependentUpon>Cs2XmlTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAttribute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAttribute.designer.cs">
+      <DependentUpon>FAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FComment.designer.cs">
+      <DependentUpon>FComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FElement.designer.cs">
+      <DependentUpon>FElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FOptions.designer.cs">
+      <DependentUpon>FOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cs2LinqToXmlEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Cs2LinqToXmlEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cs2TabControl.resx">
+      <DependentUpon>Cs2TabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cs2XmlEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Cs2XmlEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cs2XmlTreeView.resx">
+      <DependentUpon>Cs2XmlTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAttribute.resx">
+      <DependentUpon>FAttribute.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FComment.resx">
+      <DependentUpon>FComment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FElement.resx">
+      <DependentUpon>FElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FOptions.resx">
+      <DependentUpon>FOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPathVisualizer.resx">
+      <DependentUpon>XPathVisualizer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="XPathVisualizer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPathVisualizer.designer.cs">
+      <DependentUpon>XPathVisualizer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cs2GenLinqToXmlLib\Cs2GenLinqToXmlLib.csproj">
+      <Project>{789A2632-991F-4C75-B6B1-DD1B546B9CDA}</Project>
+      <Name>Cs2GenLinqToXmlLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\net2csgenxlinqv1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
